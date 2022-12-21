@@ -144,9 +144,9 @@ public class BrickBreaker implements Runnable{
 				blocks[i][j].render();
 			}	
 		}
-		g.setColor(Color.blue.brighter());
+		g.setColor(Color.cyan.brighter());
 		g.fillRect(px, py, 80, 20);
-		g.setColor(Color.blue.darker());
+		g.setColor(Color.BLUE.darker());
 		g.drawRect(px, py, 80, 20);
 		
 		g.setColor(Color.green.brighter());
@@ -239,9 +239,9 @@ public class BrickBreaker implements Runnable{
 		
 		public void render(){
 			if(run){
-			g.setColor(Color.LIGHT_GRAY);
+			g.setColor(Color.cyan);
 			g.fillRect(x, y, width, height);
-			g.setColor(Color.gray.darker());
+			g.setColor(Color.blue.darker());
 			g.drawRect(x, y, width, height);
 			}
 		}
